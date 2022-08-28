@@ -5,13 +5,11 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Simple Auth</title>
+        <title>Simple Auth | dev-0.2</title>
       </Head>
-      
+
       <div className='container mx-auto h-screen flex items-center justify-center'>
-        <span className='text-9xl text-white'>
-          Inial Commit
-        </span>
+          
       </div>
 
     </>
