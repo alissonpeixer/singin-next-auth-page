@@ -11,7 +11,15 @@ const Home: NextPage = () => {
       </Head>
 
       <div className='container mx-auto h-screen flex items-center justify-center'>
-          <button className='text-white' onClick={() => signIn('github')}>Login</button>
+          <button className='text-white'  
+            onClick={() => {
+                signIn('github', 
+                {
+                  callbackUrl: `http://localhost:3000/`,
+                }
+              );
+            }}
+          >Login</button>
       </div>
 
     </>
